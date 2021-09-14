@@ -1,0 +1,25 @@
+{
+    "name": "dbizapps/utilities",
+    "description": "Common utilities for PHP applications",
+    "type": "library",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "10.0.x-dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "dbizapps\\Utilities\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Mark Fluehmann",
+            "email": "dbizapps@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
